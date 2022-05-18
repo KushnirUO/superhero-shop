@@ -1,6 +1,6 @@
-.button{
-  padding:5px 15px;
-  border:1px solid black;
+.button {
+  padding: 5px 15px;
+  border: 1px solid black;
   border-radius: 10px;
   background: aliceblue;
   display: inline-block;
@@ -8,6 +8,82 @@
   min-width: 150px;
 }
 
-.button--full{
+.button--full {
   display: block;
+}
+
+/*   мой код ниже    */
+
+.user-comment-wrapper {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(245, 241, 241);
+}
+.user-comment {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  max-width: 464px;
+  border-radius: 10px;
+  border: 1px solid rgb(199, 195, 195);
+  background-color: rgb(241, 240, 240);
+  padding: 11px;
+  gap: 11px;
+}
+
+.user-comment__heading {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.user-foto {
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-foto img {
+  vertical-align: bottom;
+}
+
+.user-name {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  min-width: 70px;
+  min-height: 14px;
+}
+.user-status {
+  min-width: 49px;
+  min-height: 18px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.user-status img {
+  vertical-align: bottom;
+}
+.user-time {
+  font-style: italic;
+  color: gray;
+  font-size: 12px;
+  line-height: 14px;
+  min-width: 83px;
+  min-height: 15px;
+}
+.user-comment__text {
+  padding-left: 11px;
+  font-size: 12px;
+  line-height: 14px;
+  /* font-family: Roboto; */
+}
+.user-star {
+  position: absolute;
+  left: 173px;
+  min-width: 110px;
+  min-height: 18px;
 }

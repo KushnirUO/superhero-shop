@@ -12,19 +12,19 @@
   display: block;
 }
 
-/*   мой код ниже    */
-
-.user-comment-wrapper {
+.user-comment {
+  align-items: center;
+  max-width: 526px;
+  padding: 20px 0 20px 0;
   font-family: Roboto;
   display: flex;
   flex-direction: column;
   gap: 20px;
   background-color: rgb(245, 241, 241);
 }
-.user-comment {
+.user-comment-wrapper {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   max-width: 464px;
   border-radius: 10px;
   border: 1px solid rgb(199, 195, 195);
@@ -79,7 +79,6 @@
   padding-left: 11px;
   font-size: 12px;
   line-height: 14px;
-  /* font-family: Roboto; */
 }
 .user-star {
   position: absolute;

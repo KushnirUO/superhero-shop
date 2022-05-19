@@ -22,7 +22,7 @@
   gap: 20px;
   background-color: rgb(245, 241, 241);
 }
-.user-comment-wrapper {
+.user-comment__item {
   display: flex;
   flex-direction: column;
   max-width: 464px;
@@ -33,7 +33,7 @@
   gap: 11px;
 }
 
-.user-comment__heading {
+.user-comment-heading {
   position: relative;
   display: flex;
   flex-direction: row;

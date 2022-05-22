@@ -176,6 +176,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+  caret-color: #0093B4;
 }
 
 .input-text-modification:valid {

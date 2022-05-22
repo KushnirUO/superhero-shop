@@ -106,13 +106,14 @@
 
 .form-input__big {
   margin-bottom: 40px;
+  width: 100%;
 }
 
-.big__input-label {
+.big-input-label {
   position: relative;
 }
 
-#input-label__input {
+#big-input-label__input {
   border-radius: 17px;
   min-width: 206px;
   min-height: 35px;
@@ -125,11 +126,11 @@
   outline-offset: 0;
 }
 
-#input-label__input::-webkit-search-cancel-button {
+#big-input-label__input::-webkit-search-cancel-button {
   display: none;
 }
 
-#input-label__input:focus {
+#big-input-label__input:focus {
   border: 1px solid #EE171F;
   padding: 0 26px 0 10px;
   font-weight: 500;
@@ -137,13 +138,13 @@
   line-height: 14px;
 }
 
-#input-label__input:hover {
+#big-input-label__input:hover {
   border: 1px solid #EE171F;
   padding: 0 26px 0 10px;
   cursor: text;
 }
 
-.input-label__search-sign {
+.big-input-label__search-sign {
   position: absolute;
   left: 88%;
   top: -58.5%;
@@ -157,7 +158,7 @@
   outline-offset: 0;
 }
 
-.input-label__search-sign img {
+.big-input-label__search-sign img {
   padding-top: 3px;
 }
 
@@ -165,6 +166,7 @@
   display: flex;
   flex-direction: row;
   gap: 30px;
+  width: 100%;
 }
 
 .form-input__left-wrapper input {
@@ -201,14 +203,14 @@
   gap: 10px;
 }
 
-.left__all-round {
+.left__input-all-round {
   border-radius: 14px;
 }
 
-.left__right-round {
+.left__input-right-round {
   border-radius: 0 14px 14px 0;
 }
 
-.left__left-round {
+.left__input-left-round {
   border-radius: 14px 0 0 14px;
 }

@@ -13,6 +13,6 @@ tinymce.init({
 
 });
 
-document.getElementById('input-label__input').addEventListener('blur', (e) => {
+document.getElementById('big-input-label__input').addEventListener('blur', (e) => {
   e.target.value = '';
 })

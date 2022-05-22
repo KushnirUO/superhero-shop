@@ -106,7 +106,6 @@
 
 .form-input__big {
   margin-bottom: 40px;
-  width: 100%;
 }
 
 .big-input-label {
@@ -162,15 +161,13 @@
   padding-top: 3px;
 }
 
-.form-input__text-wrapper {
+.form-input__text-wrap {
   display: flex;
-  flex-direction: row;
-  gap: 30px;
-  width: 100%;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .input-text-modification {
-  min-width: 126px;
   min-height: 28px;
   border: none;
   outline: 0;
@@ -197,20 +194,17 @@
   line-height: 14px;
 }
 
-.form-input__text {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .input-all__text-all-round {
   border-radius: 14px;
+  width: 100%;
 }
 
 .input-right__text-right-round {
   border-radius: 0 14px 14px 0;
+  width: 100%;
 }
 
 .input-left__text-left-round {
   border-radius: 14px 0 0 14px;
+  width: 100%;
 }

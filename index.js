@@ -12,3 +12,7 @@ tinymce.init({
   toolbar: 'bold italic underline bullist alignjustify alignleft alignright forecolor',
 
 });
+
+document.getElementById('big-input-label__input').addEventListener('blur', (e) => {
+  e.target.value = '';
+})

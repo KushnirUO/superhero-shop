@@ -975,3 +975,24 @@ p{
   justify-content: flex-end;
   flex-basis: 52%;
 }
+
+
+.buttonNew {
+  padding: 5px 0;
+  border-radius: 11.5px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.buttonNew--full {
+  display: block;
+  width: 100%;
+}
+.buttonNew_shadow {
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+}
+.buttonNew_white {
+  color: black;
+  background-color: #FFFFFF;
+}

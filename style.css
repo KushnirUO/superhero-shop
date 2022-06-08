@@ -980,13 +980,15 @@ p{
 .buttonNew {
   padding: 5px 0;
   border-radius: 11.5px;
+  display: inline-block;
   text-align: center;
   text-decoration: none;
-  width: 100%;
+  color: white;
+  background-color: #EE171F;
+  min-width: 82px;
 }
 
 .buttonNew--full {
-  display: block;
   width: 100%;
 }
 .buttonNew_shadow {
